@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize your repository a .git directory is started in your file (it 
+starts with a "." because it is meant to be hidden from the average user. To see 
+it you should use ls -a) 
+
+This directory starts a repository but it does not start tracking your files until 
+you commit. It doesn't track them automatically because you may want to add a
+custom message to it. Also, you may not want to track all the files in the directory
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The staging area collects many snapshots before you do a commit. It's more 
+granular since you could store more changes than one logical change during a
+commit
